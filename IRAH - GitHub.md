@@ -111,7 +111,10 @@
 > Would you like me to show you how to set up the **Obsidian Git** plugin so you never have to type your username/token again?
 
 ###### Git PUSH - Obsidian Notes to GitHub
-
+> [!tip]- Terminal Commands - Git Push every changes made
+> ![[../z-Attachments/Git Push every changes made.png]]
+> 
+> ![[../z-Attachments/Git Push command in Terminal.png]]
 
 ###### Terminal Command - Goes back to a folder
 > [!tip]- Terminal Command - Goes back to a previous folder
@@ -138,6 +141,54 @@
 > | `cd -` | Goes back to the **exact last folder** you were in (like a "back" button). |
 > 
 > **Would you like me to create a "Terminal Cheat Sheet" for the basic commands you'll need when setting up your Bolt.new or Supabase environment?**
+
+###### Terminal won't allow you to push if you save the GHP code in your Obsidian Notes
+> [!tip]- Re-push a commit in Terminal
+> I mean inside the **Obsidian app** itself!
+> 
+> Think of **Obsidian** as your "Design Studio" and the **folder on your laptop** as the "Construction Site." They are the same thing, but Obsidian gives you the nice tools to edit the files easily.
+> 
+> ### **The "Safety Inspector" Fix**
+> 
+> 1. **In the Obsidian App:** * Look at your file list on the left.
+> * Click on the file named **`IRAH - GitHub.md`**.
+> * Find the long code that starts with `ghp_` (your token).
+> * **Delete that code entirely from the note.** (This is the "prohibited material" the inspector found).
+> 
+> 
+> 2. **Save the note:** (Just clicking away usually saves it in Obsidian).
+> 
+> ---
+> 
+> ### **Now, Go back to the Terminal**
+> 
+> Once the "secret" is deleted from the note, run these 3 commands to tell GitHub the site is now "Clean":
+> 
+> ```bash
+> git add .
+> git commit --amend -m "March 1: Day 1 setup (removed secret token)"
+> git push -f
+> 
+> ```
+> 
+> ![[../z-Attachments/Re-push and amend a commint in terminal.png|600]]
+> 
+> ---
+> 
+> ### **Why we use `--amend` and `-f`:**
+> 
+> * **`--amend`**: This "edits" your last commit. It’s like rewriting a logbook entry to erase a mistake before anyone officially files it.
+> * **`-f` (Force)**: This tells GitHub, "I know what I'm doing, please accept this new, clean version of my history."
+> 
+> ---
+> 
+> ### **My "Grounded" AI Peer Advice:**
+> 
+> As a Director handling BPO fit-outs, you wouldn't leave a master key hanging on the front door for everyone to see. That’s what putting the `ghp_` token in your notes was like! GitHub saw it and protected you.
+> 
+> Once you delete it from the note and run those commands, your "Site Clearance" will be complete.
+> 
+> **Did the `git push -f` command give you the "Writing objects: 100%" message this time?**
 
 
 
