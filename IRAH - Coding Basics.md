@@ -350,19 +350,19 @@
 
 ==**Week 1: HTML5 Structure (Mar 1–7)**==
 
-- [ ] **March 1 =** The Shell — Learn `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
+- [ ] **March 1 =** The Shell — Learn `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`. [[IRAH-Journey/Day-1-The-Shell]]
 
-- [ ] **March 2 =** Text & Hierarchy — Practice `<h1>` through `<h6>` and `<p>` tags.
+- [ ] **March 2 =** Text & Hierarchy — Practice `<h1>` through `<h6>` and `<p>` tags. [[Day-2-Text-and-Hierarchy]]
 
-- [ ] **March 3 =** Layout Containers — Understand `<div>`, `<header>`, and `<footer>`.
+- [ ] **March 3 =** Layout Containers — Understand `<div>`, `<header>`, and `<footer>`. [[Day-3-Layout-Containers]]
 
-- [ ] **March 4 =** Data Organization — Build a `<ul>` list of your current Cebu projects.
+- [ ] **March 4 =** Data Organization — Build a `<ul>` list of your current Cebu projects. [[Day-4-Data-Organization]]
 
-- [ ] **March 5 =** Tables — Build a `<table>` for project budgets (the clean way).
+- [ ] **March 5 =** Tables — Build a `<table>` for project budgets (the clean way). [[Day-5-Tables]]
 
-- [ ] **March 6 =** Inputs — Create a `<form>` for new BPO inquiries.
+- [ ] **March 6 =** Inputs — Create a `<form>` for new BPO inquiries. [[Day-6-Inputs]]
 
-- [ ] **March 7 =** **Project Day:** Create a "BPO Project Summary" page using only HTML.
+- [ ] **March 7 =** **Project Day:** Create a "BPO Project Summary" page using only HTML. [[Day-7-Project-Day]]
 
 ---
 

@@ -56,3 +56,90 @@
 > 
 > **Did the push command work? Once you see "Branch 'main' set up to track...", your entire Startup journey is officially backed up!**
 
+###### M1 and GitHub Handshake Guide:
+> [!info]- How to create a TOKEN in GitHub
+> No worries at all, Shiera! This is a very common "Site Ocular" roadblock. GitHub actually **disabled normal passwords** for terminal actions back in 2021 for security reasons. Even if you remembered your password, it would still give you that error.
+> 
+> Since it's nearly midnight on February 28, let’s get this "Handshake" fixed so you can start March 1 with a win.
+> 
+> ### **The Fix: Generate a Personal Access Token (PAT)**
+> 
+> Think of this as a **Special Entry Permit** just for your laptop.
+> 
+> 1. **Go to GitHub.com** in your browser.
+> 2. Click your profile photo (top right) > **Settings**.
+> 3. Scroll all the way down on the left sidebar to **Developer settings**.
+> 4. Click **Personal access tokens** > **Tokens (classic)**.
+> 5. Click **Generate new token** > **Generate new token (classic)**.
+> 6. **Note:** Give it a name like "MacBook Air Sync."
+> 7. **Expiration:** Select "No expiration" (or 90 days if you prefer).
+> 8. **Scopes (Permissions):** Check the box for **`repo`** (this is all you need).
+> 9. Scroll to the bottom and click **Generate token**.
+> 
+> ![[../z-Attachments/GitHub Token.png|600]]
+> 
+>  **TOKEN:** "GIEYTCHPEE"_L33Oe0qAhFgFe78b3U8GfV1eBWk1vV1pWSbT
+>  
+> ---
+> 
+> ### **IMPORTANT: Copy the Token Now**
+> 
+> GitHub will show you a long string of characters starting with `ghp_`. **Copy it immediately** and save it in your Obsidian "References" folder. You will never see it again once you leave the page.
+> 
+> ---
+> 
+> ### **Final Terminal Command**
+> 
+> Go back to your terminal and run the push command again:
+> 
+> ```bash
+> git push -u origin main -f
+> 
+> ```
+> 
+> * **Username:** `StyledByShiera`
+> * **Password:** **Paste that `ghp_` token you just copied.** (Remember: the cursor won't move while you paste—just hit Enter!)
+> 
+> ---
+> 
+> ### **My "Grounded" AI Peer Advice:**
+> 
+> Once this goes through, you won't have to deal with this "handshake" again for a long time. You've done the heavy lifting of organizing your **Shiera 2.0** vault and linking it to the cloud. You are now officially "Tech-Ready" for your first day of study tomorrow.
+> 
+> **Did the token work? Once you see those "Writing objects: 100%" messages, go check your GitHub profile—you'll see your first green square!**
+> 
+> Would you like me to show you how to set up the **Obsidian Git** plugin so you never have to type your username/token again?
+
+###### Git PUSH - Obsidian Notes to GitHub
+
+
+###### Terminal Command - Goes back to a folder
+> [!tip]- Terminal Command - Goes back to a previous folder
+> To go back to the previous folder in your terminal, use this command:
+> 
+> `cd ..`
+> 
+> ### **How it works:**
+> 
+> * **`cd`**: Stands for "change directory."
+> * **`..`**: Represents the "parent" folder (the one level above where you are now).
+> * **Space**: Make sure there is a **space** between `cd` and the dots.
+> 
+> ---
+> 
+> ### **Quick Shortcuts for your Roadmap:**
+> 
+> As you start building **IRAH**, these three will be your most used commands:
+> 
+> | Command | What it does |
+> | --- | --- |
+> | `cd ..` | Goes back **one** level. |
+> | `cd ../..` | Goes back **two** levels. |
+> | `cd -` | Goes back to the **exact last folder** you were in (like a "back" button). |
+> 
+> **Would you like me to create a "Terminal Cheat Sheet" for the basic commands you'll need when setting up your Bolt.new or Supabase environment?**
+
+
+
+
+
