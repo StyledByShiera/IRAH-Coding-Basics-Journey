@@ -39,3 +39,18 @@
 > 
 > Would you like me to create a simple coding exercise for you to practice nesting these tags correctly?
 
+> [!info]- What Role Does HTML Play on the Web?
+> ![[../../z-Attachments/9 2.png]]
+> 
+> ![[../../z-Attachments/10 2.png]]
+> 
+> ![[../../z-Attachments/11 2.png]]
+> 
+> ![[../../z-Attachments/12 2.png]]
+
+> [!info]- What Are Attributes, and How Do They Work?
+>  ![[../../z-Attachments/13 2.png]]
+>  
+>  ![[../../z-Attachments/14 2.png]]
+
+
