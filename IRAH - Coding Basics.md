@@ -350,9 +350,9 @@
 
 ==**Week 1: HTML5 Structure (Mar 1–7)**==
 
-- [ ] **March 1 =** The Shell — Learn `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`. [[IRAH-Journey/Day-1-The-Shell]]
+- [x] **March 1 =** The Shell — Learn `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`. [[IRAH-Journey/Day-1-The-Shell]]
 
-- [ ] **March 2 =** Text & Hierarchy — Practice `<h1>` through `<h6>` and `<p>` tags. [[Day-2-Text-and-Hierarchy]]
+- [ ] **March 2 =** Text & Hierarchy — Practice `<h1>` through `<h6>` and `<p>` tags. [[IRAH-Journey/Day-2-Text-and-Hierarchy]]
 
 - [ ] **March 3 =** Layout Containers — Understand `<div>`, `<header>`, and `<footer>`. [[Day-3-Layout-Containers]]
 

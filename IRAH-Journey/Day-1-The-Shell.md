@@ -61,6 +61,7 @@
 > 
 > **Does that structure make sense for your first note?** Once you save this, you'll have your first real "Code Snippet" in your digital library.
 
+
 `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -76,3 +77,26 @@
 
 </body>
 </html>`
+
+> [!tip]- FreeCodeCamp - Build a Curriculum Outline
+> **==HTML stands for HyperText Markup Language==**. It's the code that defines the structure and content of a webpage. This is your code editor, where you'll write HTML.
+> 
+> ![[../../z-Attachments/1 4.png|400]]
+> 
+> ![[../../z-Attachments/2 2.png|900]]
+> 
+> ![[../../z-Attachments/3 2.png|900]]
+> 
+> ![[../../z-Attachments/4 2.png|900]]
+> 
+> ![[../../z-Attachments/5 2.png|900]]
+> 
+> ![[../../z-Attachments/6 2.png|900]]
+> 
+> ![[../../z-Attachments/7 2.png|900]]
+> 
+> ![[../../z-Attachments/8 2.png|900]]
+> 
+
+
+
